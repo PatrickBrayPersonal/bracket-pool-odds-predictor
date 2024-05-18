@@ -1,9 +1,9 @@
-your_project
+bracket-pool-odds-predictor
 ==============================
 
-__description__
+a package for predicting the odds you win your given bracket pool
 
-__authors__
+Patrick Bray
 
 
 ## Prerequisites
@@ -47,7 +47,7 @@ Project Organization
     |                         Put code here that is not easily reused and put details in your config files. Mature code should be moved
     |                         into the package for reuse from other scripts
     ├── tests              <- project tests
-    ├── your_package       <- Source code for use in this project.
+    ├── bp_odds       <- Source code for use in this project.
     │   ├── data           <- Functions to download, edit, or generate data
     │   │
     │   ├── model          <- Functions to train models and then use trained models to make

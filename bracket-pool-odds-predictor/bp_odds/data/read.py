@@ -5,7 +5,7 @@ from re import match
 
 import pandas as pd
 
-from your_package.utils import error
+from bp_odds.utils import error
 
 
 def file_to_df(path: str, **kwargs):

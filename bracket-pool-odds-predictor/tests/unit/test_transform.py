@@ -1,12 +1,12 @@
 """
-Unit Test the functions from your_package/data/transform.py
+Unit Test the functions from bp_odds/data/transform.py
 """
 
 
 import fire
 
 from tests.utils import assert_df_equal, read_prompt_soln
-from your_package.data.transform import drop_pattern, select_pattern
+from bp_odds.data.transform import drop_pattern, select_pattern
 
 
 def test_drop_pattern():

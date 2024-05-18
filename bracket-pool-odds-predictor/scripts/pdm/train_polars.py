@@ -6,7 +6,7 @@ from loguru import logger
 from omegaconf import DictConfig, OmegaConf
 from sklearn.pipeline import Pipeline
 import polars as pl
-from your_package.utils import (
+from bp_odds.utils import (
     log_best_params,
     log_config,
     log_feature_importance,

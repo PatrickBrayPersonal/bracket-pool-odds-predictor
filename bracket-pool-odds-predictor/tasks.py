@@ -5,8 +5,8 @@ from copy import deepcopy
 import ast
 
 
-BUCKET = "ml-template"
-CODE_DIRS = ["scripts", "notebooks", "tests", "your_package"]
+BUCKET = "None"
+CODE_DIRS = ["scripts", "notebooks", "tests", "bp_odds"]
 
 
 @task
@@ -102,5 +102,5 @@ def docs(c):
     """
     Update the documentation directory and update gh-pages from master
     """
-    os.system("pdoc your_package -o docs")
+    os.system("pdoc bp_odds -o docs")
     os.system("ghp-import -p -o docs")

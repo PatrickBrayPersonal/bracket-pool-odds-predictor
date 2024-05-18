@@ -5,7 +5,7 @@ from re import match
 
 import polars as pl
 
-from your_package.utils import error
+from bp_odds.utils import error
 
 
 def file_to_df(path: str, **kwargs):
