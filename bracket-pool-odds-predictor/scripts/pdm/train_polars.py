@@ -1,11 +1,12 @@
 import hydra
 import mlflow
+import polars as pl
 from hydra.core.hydra_config import HydraConfig
 from hydra.utils import call, instantiate
 from loguru import logger
 from omegaconf import DictConfig, OmegaConf
 from sklearn.pipeline import Pipeline
-import polars as pl
+
 from bp_odds.utils import (
     log_best_params,
     log_config,

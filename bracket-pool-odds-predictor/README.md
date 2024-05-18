@@ -12,11 +12,12 @@ Patrick Bray
   - `pip install poetry`
 
 ## Installation
+*Before doing this check the pyproject.toml file and remove and packages you don't really want. If you make changes, delete poetry.lock*
 1. Create your environment
 `poetry install`
 `poetry shell`
 2. Test the precommit script
-`inv precommit`
+`inv format`
 3. Test the package
 `pytest .`
 

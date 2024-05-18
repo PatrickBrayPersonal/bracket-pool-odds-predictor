@@ -5,8 +5,8 @@ Unit Test the functions from bp_odds/data/transform.py
 
 import fire
 
-from tests.utils import assert_df_equal, read_prompt_soln
 from bp_odds.data.transform import drop_pattern, select_pattern
+from tests.utils import assert_df_equal, read_prompt_soln
 
 
 def test_drop_pattern():
